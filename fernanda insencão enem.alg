@@ -21,6 +21,7 @@ quantelemovel: real
 bolsafamilia: real
 arcondicionado: real
 maquina:real
+internet:real
 
 inicio
 // Seção de Comandos 
