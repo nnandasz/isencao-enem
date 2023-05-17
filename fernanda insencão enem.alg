@@ -1,8 +1,8 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o :
 // Autor :
 // Data : 12/04/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 nome: caractere
 nomemae: caractere
@@ -23,12 +23,12 @@ arcondicionado: real
 maquina:real
 
 inicio
-// Seção de Comandos 
-escreval("seja bem vindo a insenção do enem 2023")
-//inicio do cadastro básico
+// SeÃ§Ã£o de Comandos 
+escreval("seja bem vindo a insenÃ§Ã£o do enem 2023")
+//inicio do cadastro bÃ¡sico
 escreval("nome completo")
 leia(nome)
-escreval("nome da mãe")
+escreval("nome da mÃ£e")
 leia(nomemae)
 escreval("nome do pai")
 leia(nomepai)
@@ -36,16 +36,16 @@ escreval("data de nascimento")
 leia(datanascimento)
 escreval("qual a sua modalidade de estudo?")
 leia(modal)
-escreval("você estudou em escola particular ou publica")
+escreval("vocÃª estudou em escola particular ou publica")
 escreval("digite 1 para escola  particular")
 escreval("digite 2 para escola publica")
 leia(escolhaescola)
-//fim das informações bàsicas
+//fim das informaÃ§Ãµes bÃ sicas
 
 
 //inicio cadastro de senha
 repita
-escreval("informe uma senha com 6 números de 0 à 9 nùmeros")
+escreval("informe uma senha com 6 nÃºmeros de 0 Ã  9 nÃ¹meros")
 leia(senha)
 escreval("confirme sua senha")
 leia(confirmesenha)
@@ -55,7 +55,7 @@ escreval("senha cadastrada com sucesso")
 senao
 
 se senha <> confirmesenha entao
-escreval("senha não correspondente")
+escreval("senha nÃ£o correspondente")
 
 fimse
 fimse
@@ -65,7 +65,7 @@ ate senha = confirmesenha
 
 
  se escolhaescola = 1 entao
- escreval("não isento")
+ escreval("nÃ£o isento")
  senao
 
  se escolhaescola = 2 entao
@@ -86,7 +86,7 @@ ate senha = confirmesenha
  escreval("digite 4 - de R$5000 a R$6000")
  escreval("digite 5 - de acima de R$6000")
  leia(rendafamiliar)
- escreval("informe a quantidade de pessoas que moram na sua residência")
+ escreval("informe a quantidade de pessoas que moram na sua residÃªncia")
  leia(quantpessoas)
  
  
@@ -131,6 +131,11 @@ ate senha = confirmesenha
  escreval("digite 1 - se sim")
  escreval("digite 2 - se nao")
  leia(maquina)
+ 
+ escreval("na sua residencia tem internet")
+ escreval("digite 1 - se sim")
+ escreval("digite 2 - se nao")
+ leia(internet)
 
 
   //inicio regra de negocio para a aprovacao da isencao
@@ -143,7 +148,7 @@ ate senha = confirmesenha
   
   escreval("******")
  escreval("nome:", nome)
- escreval("nome da mãe:", nomemae)
+ escreval("nome da mÃ£e:", nomemae)
  escreval("nome do pai:", nomepai)
  escreval("data de nascimento:", datanascimento)
  escreval("modalida de estudo:", modal)
